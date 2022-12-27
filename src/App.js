@@ -5,14 +5,16 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
 import {Container, Row, Col} from "react-bootstrap"
+import HomeScreen from './screens/HomeScreen'
+import {BrowserRouter as Router} from "react-router-dom"
 
 function App() {
   return (
     <Fragment>
         <Header/>
-        <main>
+        <main className='py-3'>
             <Container>
-                <h1 className='text-center py-3'>Welcome to ProShop</h1>
+                <HomeScreen/>
             </Container>
         </main>
         <Footer/>
