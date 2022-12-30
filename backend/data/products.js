@@ -91,6 +91,6 @@ const products = [
         rating: 3.5,
         numReviews:10
     }
-]
+];
 
-export default products;
+module.exports = products;
